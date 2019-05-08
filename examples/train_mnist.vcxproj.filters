@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="train.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mnist_parser.h" />
+    <ClInclude Include="..\cnn\activation.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\core_math.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\cost.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\layer.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\network.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\simple_cnn.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\solver.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cnn\util.h">
+      <Filter>cnn</Filter>
+    </ClInclude>
+    <ClInclude Include="cifar_parser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cnn">
+      <UniqueIdentifier>{381cb6da-7f30-4e38-9d0a-72110fd585ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
