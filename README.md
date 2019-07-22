@@ -1,6 +1,6 @@
 # simple_CNN
 
-this netural network program based c++ and opencv;
+this neural network program based c++ and opencv;
 
 API Example:
 Load model and perform prediction:
